@@ -1,0 +1,11 @@
+export const URL_POT_OPTIONS = '/promotion-planning/promo-optis/promo-options';
+export const URL_POT_PARAMETERS = '/promotion-planning/promo-optis/parameters';
+export const URL_POT_PLAN = '/promotion-planning/common/plans';
+export const URL_COMMON_STATE = '/promotion-planning/common/states';
+export const URL_POT = "/promotion-planning/promo-optis";
+export const URL_POT_CHART_YEAR = "/promotion-planning/common/chart-year";
+export const URL_POT_COMPARISON = "/promotion-planning/promo-optis/comparisons";
+export const URL_POT_METRIX = "/promotion-planning/common/metrix-list";
+export const URL_POT_PLAN_METADATA = "/promotion-planning/common/plan-info";
+export const URL_PP_APPROVE = "/promotion-planning/promo-staging/approve";
+export const URL_PP_DELETE = "/promotion-planning/common/delete-plan/"

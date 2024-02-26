@@ -1,0 +1,2 @@
+// POT
+export const PROMOTIONAL_PLANNING_SALES_ENTRY_ROLE = "plSalesEntryR";

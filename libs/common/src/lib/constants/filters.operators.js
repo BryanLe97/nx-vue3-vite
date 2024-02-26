@@ -1,0 +1,10 @@
+export const FILTERS_GREATER_THAN = "Gt";
+export const FILTERS_LESS_THAN = "Lt";
+export const FILTERS_EQUAL = "Eq";
+export const FILTERS_LESS_THAN_OR_EQUAL = "Le";
+export const FILTERS_GREATER_THAN_OR_EQUAL = "Ge";
+export const FILTERS_NOT_EQUAL = "Ne";
+export const FILTERS_CONTAINS = "Contains";
+export const FILTERS_STARTS_WITH = "StartsWith";
+export const FILTERS_ENDS_WITH = "EndsWith";
+export const FILTERS_IN = "In";
