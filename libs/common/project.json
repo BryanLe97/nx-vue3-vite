@@ -7,7 +7,7 @@
     "build": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "vite build --config vite.config.js",
+        "command": "vite build",
         "parallel": false
       }
     }
