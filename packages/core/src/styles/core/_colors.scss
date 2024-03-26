@@ -1,0 +1,6 @@
+@include make-colors($primaries);
+@include make-colors($neutrals);
+@include make-colors($errors);
+@include make-colors($warnings);
+@include make-colors($successes);
+@include make-colors($magentas);

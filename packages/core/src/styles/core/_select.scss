@@ -1,0 +1,17 @@
+.ant-select {
+  &-selection {
+    color: $neutral-10;
+  }
+
+  &-dropdown-menu-item {
+    &__title {
+      user-select: none;
+
+      &.ant-select-dropdown-menu-item-disabled {
+        cursor: auto;
+        color: unset;
+        font-weight: 500;
+      }
+    }
+  }
+}

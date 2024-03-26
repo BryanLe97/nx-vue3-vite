@@ -1,0 +1,181 @@
+$h0: 56px;
+$h1: 46px;
+$h2: 38px;
+$h3: 30px;
+$h4: 24px;
+$h5: 20px;
+$h6: 16px;
+$h7: 14px;
+$h8: 12px;
+
+$headings: (
+  "h0": $h0,
+  "h1": $h1,
+  "h2": $h2,
+  "h3": $h3,
+  "h4": $h4,
+  "h5": $h5,
+  "h6": $h6,
+  "h7": $h7,
+  "h8": $h8,
+);
+
+$bodies: (
+  "b0": $h0,
+  "b1": $h1,
+  "b2": $h2,
+  "b3": $h3,
+  "b4": $h4,
+  "b5": $h5,
+  "b6": $h6,
+  "b7": $h7,
+  "b8": $h8,
+);
+
+$primary-1: #e5efff;
+$primary-2: #cce0ff;
+$primary-3: #99c0ff;
+$primary-4: #66a1ff;
+$primary-5: #3381ff;
+$primary-6: #0062ff;
+$primary-7: #004ecc;
+$primary-8: #003b99;
+$primary-9: #003180;
+$primary-10: #001d4d;
+
+$primaries: (
+  "primary-1": $primary-1,
+  "primary-2": $primary-2,
+  "primary-3": $primary-3,
+  "primary-4": $primary-4,
+  "primary-5": $primary-5,
+  "primary-6": $primary-6,
+  "primary-7": $primary-7,
+  "primary-8": $primary-8,
+  "primary-9": $primary-9,
+  "primary-10": $primary-10,
+);
+
+$neutral-1: #ffffff;
+$neutral-2: #f9fafb;
+$neutral-3: #eaedf0;
+$neutral-4: #cdd3db;
+$neutral-5: #bec6d0;
+$neutral-6: #afb9c5;
+$neutral-7: #92a0b0;
+$neutral-8: #5c6c7f;
+$neutral-9: #475362;
+$neutral-10: #272d35;
+
+$neutrals: (
+  "neutral-1": $neutral-1,
+  "neutral-2": $neutral-2,
+  "neutral-3": $neutral-3,
+  "neutral-4": $neutral-4,
+  "neutral-5": $neutral-5,
+  "neutral-6": $neutral-6,
+  "neutral-7": $neutral-7,
+  "neutral-8": $neutral-8,
+  "neutral-9": $neutral-9,
+  "neutral-10": $neutral-10,
+);
+
+$error-1: #fff1f0;
+$error-2: #ffccc7;
+$error-3: #ffa39e;
+$error-4: #ff7875;
+$error-5: #ff4d4f;
+$error-6: #f5222d;
+$error-7: #cf1322;
+$error-8: #a8071a;
+$error-9: #820014;
+$error-10: #5c0011;
+
+$errors: (
+  "error-1": $error-1,
+  "error-2": $error-2,
+  "error-3": $error-3,
+  "error-4": $error-4,
+  "error-5": $error-5,
+  "error-6": $error-6,
+  "error-7": $error-7,
+  "error-8": $error-8,
+  "error-9": $error-9,
+  "error-10": $error-10,
+);
+
+$warning-1: #fff7e6;
+$warning-2: #ffe7ba;
+$warning-3: #ffd591;
+$warning-4: #ffc069;
+$warning-5: #ffa940;
+$warning-6: #fa8c16;
+$warning-7: #d46b08;
+$warning-8: #ad4e00;
+$warning-9: #873800;
+$warning-10: #612500;
+
+$warnings: (
+  "warning-1": $warning-1,
+  "warning-2": $warning-2,
+  "warning-3": $warning-3,
+  "warning-4": $warning-4,
+  "warning-5": $warning-5,
+  "warning-6": $warning-6,
+  "warning-7": $warning-7,
+  "warning-8": $warning-8,
+  "warning-9": $warning-9,
+  "warning-10": $warning-10,
+);
+
+$success-1: #eefffa;
+$success-2: #d3faed;
+$success-3: #85e8c6;
+$success-4: #45dfab;
+$success-5: #17d395;
+$success-6: #15b982;
+$success-7: #12a272;
+$success-8: #108b62;
+$success-9: #0d7452;
+$success-10: #084632;
+
+$successes: (
+  "success-1": $success-1,
+  "success-2": $success-2,
+  "success-3": $success-3,
+  "success-4": $success-4,
+  "success-5": $success-5,
+  "success-6": $success-6,
+  "success-7": $success-7,
+  "success-8": $success-8,
+  "success-9": $success-9,
+  "success-10": $success-10,
+);
+
+$magenta-1: #fff0f6;
+$magenta-2: #ffd6e7;
+$magenta-3: #ffadd2;
+$magenta-4: #ff85c0;
+$magenta-5: #f759ab;
+$magenta-6: #eb2f96;
+$magenta-7: #c41d7f;
+$magenta-8: #9e1068;
+$magenta-9: #780650;
+$magenta-10: #520339;
+
+$magentas: (
+  "magenta-1": $magenta-1,
+  "magenta-2": $magenta-2,
+  "magenta-3": $magenta-3,
+  "magenta-4": $magenta-4,
+  "magenta-5": $magenta-5,
+  "magenta-6": $magenta-6,
+  "magenta-7": $magenta-7,
+  "magenta-8": $magenta-8,
+  "magenta-9": $magenta-9,
+  "magenta-10": $magenta-10,
+);
+
+$text-color: $neutral-10;
+
+$enable-grid-classes: false;

@@ -1,0 +1,32 @@
+.ant-pagination {
+  color: $neutral-8;
+
+  &-item {
+    border-color: $neutral-5;
+  }
+
+  &-prev,
+  &-next {
+    .ant-pagination-item-link {
+      border-color: $neutral-5;
+    }
+  }
+
+  &-options-size-changer {
+    .ant-select {
+      &-selection {
+        border-color: $neutral-5;
+      }
+
+      &-arrow {
+        color: $neutral-6;
+      }
+    }
+  }
+
+  &-disabled {
+    .ant-pagination-item-link {
+      color: $neutral-6;
+    }
+  }
+}

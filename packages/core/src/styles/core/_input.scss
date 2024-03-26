@@ -1,0 +1,37 @@
+.ant-input {
+  color: $neutral-10;
+
+  &[disabled] {
+    color: $neutral-10;
+    // background-color: #eaedf0;
+  }
+
+  &-number {
+    width: 100%;
+
+    &-number-input {
+      font-size: $h7;
+    }
+  }
+
+  &-affix-wrapper {
+    .ant-input-prefix,
+    .ant-input-suffix {
+      color: $neutral-6;
+    }
+  }
+}
+
+.ant-input-number.ant-input-number-disabled {
+  color: $neutral-10;
+}
+
+.text-input {
+  label {
+    color: $neutral-9;
+  }
+
+  .ant-input-affix-wrapper.text-uppercase > .ant-input {
+    text-transform: uppercase;
+  }
+}

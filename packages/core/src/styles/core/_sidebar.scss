@@ -1,0 +1,52 @@
+.ant-menu-root {
+  .ant-menu-item,
+  .ant-menu-submenu .ant-menu-submenu-title {
+    opacity: 0.5;
+  }
+  .ant-menu-submenu.ant-menu-submenu-selected,
+  .ant-menu-item.ant-menu-item-selected,
+  .ant-menu-item.ant-menu-item-active,
+  .ant-menu-item:hover,
+  .ant-menu-submenu .ant-menu-submenu-title:hover,
+  .ant-menu-submenu-selected .ant-menu-submenu-title {
+    opacity: 1;
+    background: transparent;
+    color: white;
+  }
+  .ant-menu-submenu.ant-menu-submenu-selected {
+    background-color: #003180;
+  }
+  .ant-menu-submenu {
+    .ant-menu-submenu-title {
+      margin-bottom: 0;
+    }
+  }
+}
+.ant-menu-submenu-popup {
+  .ant-menu-item {
+    opacity: 0.5;
+  }
+}
+.ant-menu-submenu-popup {
+  .ant-menu-item:hover,
+  .ant-menu-item.ant-menu-item-selected {
+    opacity: 1;
+  }
+}
+.ant-menu-submenu-open {
+  background-color: #003180;
+  .ant-menu-submenu-title {
+    background: #003180;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+  }
+  .ant-menu-sub {
+    background-color: #003180;
+  }
+  &.ant-menu-submenu-selected {
+    .ant-menu-submenu-title {
+      background-color: #003180;
+    }
+  }
+}

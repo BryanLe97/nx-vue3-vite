@@ -1,0 +1,59 @@
+@import 'ant-design-vue/dist/reset.css';
+
+
+
+// Global
+// ---
+$blue-6: #0062ff;
+$white: #fff;
+$primary-8: darken($blue-6, 20%);
+$component-background: #fff;
+$font-size-sm: 12px;
+// Base Scaffolding Variables
+// ---
+$text-color: rgba(black, 0.85);
+
+// Button
+// ---
+$btn-primary-bg: $blue-6;
+$btn-border-radius-base: 2px;
+$btn-border-radius-sm: 2px;
+
+// Layout
+// ---
+$layout-body-background: $white;
+$layout-header-background: $white;
+$layout-header-height: 56px;
+$layout-header-padding: 16px 32px;
+$layout-sider-background: $primary-8;
+
+// Menu
+// ---
+$menu-bg: $primary-8;
+$menu-popup-bg: $component-background;
+$menu-collapsed-width: 56px;
+$menu-item-color: $white;
+$menu-highlight-color: $white;
+$menu-item-active-bg: transparent;
+$menu-item-active-border-width: 0;
+$menu-item-group-title-color: $white;
+
+// Tabs
+// ---
+$tabs-title-font-size: $font-size-sm;
+$tabs-horizontal-margin: 0 24px 0 0;
+$tabs-horizontal-padding: 8px 0;
+$tabs-active-color: $blue-6;
+
+// Input
+// ---
+$input-color: #272d35;
+
+// Breadcrumb
+// ---
+$breadcrumb-base-color: #92A0B0;
+$breadcrumb-last-item-color: #5C6C7F;
+
+.primary-color {
+    color: $primary-8 !important;
+}

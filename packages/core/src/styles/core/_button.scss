@@ -1,0 +1,19 @@
+.ant-btn {
+  border-color: $neutral-5;
+  color: $neutral-8;
+  border-radius: 2px;
+  &-primary {
+    border-color: #0062ff;
+    color: #fff;
+  }
+
+  &-danger {
+    border-color: #ff4d4f;
+    color: #fff;
+  }
+
+  &-link {
+    border-color: transparent;
+    color: #0062ff;
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@kraftheinz/common",
+  "version": "1.11.7",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "build:dev": "vue-cli-service build --mode development --target lib --inline-vue --name kraftheinz-common ./src/index.js",
+    "build:staging": "vue-cli-service build --mode staging --target lib --name kraftheinz-common ./src/index.js",
+    "serve": "vite build -m development -w --emptyOutDir false",
+    "lint": "vue-cli-service lint",
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs"
+  },
+  "main": "dist/kraftheinz-common.es.js",
+  "dependencies": {
+    "@antv/g2plot": "^2.3.33",
+    "@casl/ability": "^4.1.6",
+    "core-js": "^3.6.4",
+    "lodash": "^4.17.15",
+    "vue-quill-editor": "^3.0.6",
+    "query-string": "^6.12.1",
+    "numeral": "^2.0.6",
+    "vuex": "^3.4.0",
+    "vue": "3.4.0",
+    "vue-inner-image-zoom": "^1.1.0"
+  },
+  "devDependencies": {
+    "@vue/compat": "3.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.49.9",
+    "sass-loader": "^8.0.2",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "vite": "^2.6.14"
+  }
+}

@@ -1,0 +1,12 @@
+.ant-calendar {
+  font-family: Roboto, sans-serif;
+
+  &-header {
+    .ant-calendar-century-select,
+    .ant-calendar-decade-select,
+    .ant-calendar-year-select,
+    .ant-calendar-month-select {
+      font-weight: 600;
+    }
+  }
+}

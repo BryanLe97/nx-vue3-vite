@@ -1,0 +1,7 @@
+<iframe id="login" src="#{VUE_APP_API_URL}#/login" style="visibility: hidden;"></iframe>
+<script type="text/javascript">
+    document.getElementById('login').onload= function() {
+        // Back to the portal
+        location.href = "/"
+    }
+</script>
